@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background: url(card-game.png); /* Фоновый рисунок  */
+   }
+.main {
+    padding: 5px; 
+    background: #e6e6e6; 
+    margin: 0 auto; 
+    width: 95%; 
+    min-height: 620px;
+    opacity: 0.6; 
+}
+
+.submain{
+	width: 100%;
+	min-height: 100px;
+	font-family: Bradley Hand, cursive;
+	text-align: center;
+	font-size:60px;
+	margin-top: 30px;
+}
+
+.submain2{
+	width: 60%;
+	margin:auto;
+	min-height: 100px;
+	text-align: center;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+.button{
+  text-decoration: none;
+  width: 300px;
+  height: 100px;
+  margin:5px;
+  background-color: #8ed485;
+  border-radius: 10px;
+  font-size: 24px;
+  color: #613680;
+  transition-duration: 0.8s;
+}
+
+.button:hover{
+  top:5px;
+  background-color: #403680;
+  color:yellow;
+}
